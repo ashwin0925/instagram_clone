@@ -1,0 +1,25 @@
+{
+  "name": "chat-example",
+  "version": "0.0.0",
+  "description": "A chat example to showcase how to use `socket.io` with a static `express` server with `async` for control flow.",
+  "main": "server.js",
+  "repository": "",
+  "author": "Mostafa Eweda <mo.eweda@gmail.com>",
+  "dependencies": {
+    "async": "^0.2.10",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.19.0",
+    "connect-mongodb-session": "^1.4.0",
+    "express": "^3.21.2",
+    "express-fileupload": "^0.1.4",
+    "express-session": "^1.17.0",
+    "guid": "0.0.12",
+    "mongodb": "^2.2.36",
+    "mongoose": "^4.13.20",
+    "nodemailer": "^4.7.0",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "smtp-connection": "^4.0.2",
+    "socket.io": "^0.9.19"
+  }
+}
